@@ -1,0 +1,35 @@
+
+<a href="#" class="gift-button-abbchhh-hgg"
+   style="color: {{ block.settings.color }};background-color: {{ block.settings.background_color }};">
+    {{ block.settings.heading }}
+</a>
+{% schema %}
+{
+    "name": "Send as gift button",
+    "target": "section",
+    "templates": [
+        "product"
+    ],
+    "stylesheet": "gift-button.css",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Text to show",
+            "default": "Send as gift"
+        },
+        {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background color",
+            "default": "#000000"
+        },
+        {
+            "type": "color",
+            "id": "color",
+            "label": "Text color",
+            "default": "#ffffff"
+        }
+    ]
+}
+{% endschema %}

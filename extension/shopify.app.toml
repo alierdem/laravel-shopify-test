@@ -1,0 +1,7 @@
+NAME = "giftcard"
+SCOPES = "read_products,write_products"
+SHOPIFY_API_KEY = "YOUR SHOPIFY APP API KEY HERE"
+SHOPIFY_API_SECRET = "YOUR SHOPIFY APP SECRET HERE"
+APP_URL = "romantic-hamilton.34-159-207-186.plesk.page"
+HOST = "romantic-hamilton.34-159-207-186.plesk.page"
+PORT = "80"
